@@ -9,3 +9,19 @@ a img {
   height: 50px;
   object-fit: contain;
 }
+nav {
+  transition: 0.7s;
+}
+/* Seccion nuestros productos */
+.imgNosotros {
+  width: 370px;
+}
+.imgNosotros1 {
+  width: 350px;
+}
+.fuente1 {
+  font-family: "Dosis", sans-serif;
+}
+.contenedor {
+  width: 100%;
+}
