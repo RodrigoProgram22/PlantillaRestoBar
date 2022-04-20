@@ -12,6 +12,22 @@ a img {
 nav {
   transition: 0.7s;
 }
+/* Seccion sobre nosotros */
+.contenedor1 img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+/* Seccion info */
+.contenedor {
+  background-image: url(../img/section3/sushi.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  object-fit: contain;
+}
+
 /* Seccion nuestros productos */
 .imgNosotros {
   width: 370px;
@@ -21,7 +37,4 @@ nav {
 }
 .fuente1 {
   font-family: "Dosis", sans-serif;
-}
-.contenedor {
-  width: 100%;
 }

@@ -23,7 +23,7 @@
     <title>RestoBar</title>
   </head>
   <body>
-    <header class="">
+    <header>
       <nav
         class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top align-items-center"
       >
@@ -50,10 +50,10 @@
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Sobre Nosotros</a>
+                <a class="nav-link active" href="#nosotros">Sobre Nosotros</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Noticias</a>
+                <a class="nav-link active" href="#">Noticias</a>
               </li>
               <li>
                 <a class="navbar-brand d-none d-md-block" href="#"
@@ -62,7 +62,7 @@
               </li>
               <li class="nav-item dropdown">
                 <a
-                  class="nav-link dropdown-toggle"
+                  class="nav-link dropdown-toggle active"
                   href="#"
                   id="navbarDropdownMenuLink"
                   role="button"
@@ -86,10 +86,10 @@
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Delivery</a>
+                <a class="nav-link active" href="#">Delivery</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contacto</a>
+                <a class="nav-link active" href="#">Contacto</a>
               </li>
             </ul>
           </div>
@@ -158,6 +158,10 @@
         </button>
       </div>
     </header>
+    <!-- Productos destacados -->
+    <div class="container text-center my-3">
+      <h1 class="fuente1 display-3">Productos Destacados</h1>
+    </div>
     <section class="my-4">
       <div class="container-fluid">
         <div class="row text-center align-items-center">
@@ -193,74 +197,157 @@
           </div>
         </div>
       </div>
-      <div class="container text-center my-3">
-        <h1 class="fuente1 display-3">Nuestros Productos</h1>
+    </section>
+    <hr id="nosotros" class="mx-5">
+    <!-- Sobre nosotros -->
+    <section>
+      <div class="container-fluid p-3">
+        <div class="row row-cols-1 row-cols-md-3 g-4 mx-5 align-items-center">
+          <div class="col">
+            <h1 class="fuente1">Hola. Nuestra estructura está presente desde hace más de 20 años . </h1>
+            <h1 class="fuente1">¡Hacemos lo mejor!</h1>
+          </div>
+          <div class="col">
+            <div class="position-relative text-center">
+              <img src="img/section2/chef1.jpg" class="img-fluid">
+             <div
+             class="container-fluid text-light position-absolute bottom-0 start-50 translate-middle-x"
+             >
+               <h3> Gustavo Romano</h3>
+               <p class="fuente1">Cocinero principal</p>
+             </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="position-relative text-center">
+              <img src="img/section2/chef2.jpg" class="img-fluid">
+              <div
+              class="container-fluid text-light position-absolute bottom-0 start-50 translate-middle-x"
+              >
+                <h3> José Romano</h3>
+                <p class="fuente1">Experto en especies</p>
+              </div>
+            </div>
+          </div>
       </div>
-      <div class="container-fluid">
-        <div class="row row-cols-1 row-cols-md-3 g-4 mx-5">
-          <div class="col">
-            <div class="position-relative">
-              <img class="img-fluid" src="img/section1/hamburgesa.jpg" />
-              <p
-                class="container-fluid text-light position-absolute bottom-0 start-50 translate-middle-x"
-              >
-                CARNE DE CALIDAD
-              </p>
+      <div class="container my-5">
+        <div class="row row-cols-1 row-cols-md-2 g-4 mx-5 align-items-center">
+           <div class="col px-5">
+            <div class="d-flex position-relative contenedor1">
+              <img src="img/section2/ico-1.png" class="flex-shrink-0 me-3">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas magna at porttitor vehicula nullam augue ipsum dolor.</p>             
             </div>
+           </div>
+           <div class="col px-5"> <div class="d-flex position-relative contenedor1">
+              <img src="img/section2/ico-2.png" class="flex-shrink-0 me-3">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas magna at porttitor vehicula nullam augue ipsum dolor.</p>             
+            </div></div>
+           <div class="col px-5"> <div class="d-flex position-relative contenedor1">
+              <img src="img/section2/ico-3.png" class="flex-shrink-0 me-3">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas magna at porttitor vehicula nullam augue ipsum dolor.</p>             
+            </div></div>
+           <div class="col px-5"> <div class="d-flex position-relative contenedor1">
+              <img src="img/section2/ico.4.png" class="flex-shrink-0 me-3">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas magna at porttitor vehicula nullam augue ipsum dolor.</p>             
+            </div></div>   
+      </div>
+      </div>
+    </section>
+    <!-- Info -->
+    <section class="my-3">
+      <div class="container-fluid m-0 p-5 contenedor">
+        <div class="row row-cols-1 row-cols-md-4 g-4 fuente1 text-light mx-0">
+          <div class="col text-center">
+            <h1>12</h1>
+            <h4>PLATOS PRINCIPALES</h4>
           </div>
-          <div class="col">
-            <div class="position-relative">
-              <img class="img-fluid" src="img/section1/hamburgesa.jpg" />
-              <p
-                class="container-fluid text-light position-absolute bottom-0 start-50 translate-middle-x"
-              >
-                CARNE DE CALIDAD
-              </p>
-            </div>
+          <div class="col text-center">
+            <h1>22</h1>
+            <h4>POSTRES</h4>
           </div>
-          <div class="col">
-            <div class="position-relative">
-              <img class="img-fluid" src="img/section1/hamburgesa.jpg" />
-              <p
-                class="container-fluid text-light position-absolute bottom-0 start-50 translate-middle-x"
-              >
-                CARNE DE CALIDAD
-              </p>
-            </div>
+          <div class="col text-center">
+            <h1>18</h1>
+            <h4>LOS MIEMBROS DEL PERSONAL</h4>
           </div>
-          <div class="col">
-            <div class="position-relative">
-              <img class="img-fluid" src="img/section1/ensalada.jpg" />
-              <p
-                class="container-fluid text-light position-absolute bottom-0 start-50 translate-middle-x"
-              >
-                COMIDA FRESCA
-              </p>
-            </div>
-          </div>
-          <div class="col">
-            <div class="position-relative">
-              <img class="img-fluid" src="img/section1/ensalada.jpg" />
-              <p
-                class="container-fluid text-light position-absolute bottom-0 start-50 translate-middle-x"
-              >
-                COMIDA FRESCA
-              </p>
-            </div>
-          </div>
-          <div class="col">
-            <div class="position-relative">
-              <img class="img-fluid" src="img/section1/ensalada.jpg" />
-              <p
-                class="container-fluid text-light position-absolute bottom-0 start-50 translate-middle-x"
-              >
-                COMIDA FRESCA
-              </p>
-            </div>
+          <div class="col text-center">
+            <h1>4</h1>
+            <h4>AÑOS DE EXPERIENCIA</h4>
           </div>
         </div>
       </div>
-    </section>
+  </section>
+  <!-- Nuestros productos -->
+  <section>
+    <div class="container text-center my-3">
+      <h1 class="fuente1 display-3">Nuestros Productos</h1>
+    </div>
+    <div class="container-fluid">
+      <div class="row row-cols-1 row-cols-md-3 g-4 mx-5">
+        <div class="col">
+          <div class="position-relative">
+            <img class="img-fluid" src="img/section1/hamburgesa.jpg" />
+            <p
+              class="container-fluid text-light position-absolute bottom-0 start-50 translate-middle-x"
+            >
+              CARNE DE CALIDAD
+            </p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="position-relative">
+            <img class="img-fluid" src="img/section1/hamburgesa.jpg" />
+            <p
+              class="container-fluid text-light position-absolute bottom-0 start-50 translate-middle-x"
+            >
+              CARNE DE CALIDAD
+            </p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="position-relative">
+            <img class="img-fluid" src="img/section1/hamburgesa.jpg" />
+            <p
+              class="container-fluid text-light position-absolute bottom-0 start-50 translate-middle-x"
+            >
+              CARNE DE CALIDAD
+            </p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="position-relative">
+            <img class="img-fluid" src="img/section1/ensalada.jpg" />
+            <p
+              class="container-fluid text-light position-absolute bottom-0 start-50 translate-middle-x"
+            >
+              COMIDA FRESCA
+            </p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="position-relative">
+            <img class="img-fluid" src="img/section1/ensalada.jpg" />
+            <p
+              class="container-fluid text-light position-absolute bottom-0 start-50 translate-middle-x"
+            >
+              COMIDA FRESCA
+            </p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="position-relative">
+            <img class="img-fluid" src="img/section1/ensalada.jpg" />
+            <p
+              class="container-fluid text-light position-absolute bottom-0 start-50 translate-middle-x"
+            >
+              COMIDA FRESCA
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <hr id="nosotros" class="mx-5">
+  <!-- Noticias -->
   </body>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/style.js"></script>
