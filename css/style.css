@@ -38,3 +38,7 @@ nav {
 .fuente1 {
   font-family: "Dosis", sans-serif;
 }
+/* Seccion Pedidos */
+a {
+  text-decoration: none;
+}
