@@ -43,53 +43,34 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav mx-auto d-flex align-items-center">
+            <ul class="navbar-nav mx-auto d-flex align-items-center fuente1">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#"
-                  >Inicio</a
+                  >INICIO</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="#nosotros">Sobre Nosotros</a>
+                <a class="nav-link active" href="#destacados">DESTACADOS</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="#">Noticias</a>
+                <a class="nav-link active" href="#nosotros">SOBRE NOSOTROS</a>
               </li>
               <li>
-                <a class="navbar-brand d-none d-md-block" href="#"
-                  ><img src="img/icon.png" alt=""
+                <a class="navbar-brand d-none d-md-block mx-0" href="#"
+                  ><img src="img/icon.png"
                 /></a>
               </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle active"
-                  href="#"
-                  id="navbarDropdownMenuLink"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Menu
-                </a>
-                <ul
-                  class="dropdown-menu"
-                  aria-labelledby="navbarDropdownMenuLink"
-                >
-                  <li><a class="dropdown-item" href="#">Desayuno</a></li>
-                  <li><a class="dropdown-item" href="#">Almuerzo</a></li>
-                  <li>
-                    <a class="dropdown-item" href="#">Merienda</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">Cena</a>
-                  </li>
-                </ul>
+              <li class="nav-item">
+                <a class="nav-link active" href="#productos">MENU</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="#">Delivery</a>
+                <a class="nav-link active" href="#noticias">NOTICIAS</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="#">Contacto</a>
+                <a class="nav-link active" href="#">DELIVERY</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">CONTACTO</a>
               </li>
             </ul>
           </div>
@@ -122,10 +103,10 @@
             <div
               class="carousel-caption d-none d-md-block position-absolute top-50 start-50 translate-middle"
             >
-              <h1 class="fuente1">
-                Comida increíble con productos frescos, pescados y comida rapida
+              <h1 class="fuente1 display-4">
+                Comida increíble con productos frescos.
               </h1>
-              <h4 class="fuente1">Menu con una gran variedad de comidas</h4>
+              <h3 class="fuente1">Menu con una gran variedad de comidas</h3>
             </div>
           </div>
           <div class="carousel-item position-relative">
@@ -133,8 +114,8 @@
             <div
               class="carousel-caption d-none d-md-block position-absolute top-50 start-50 translate-middle"
             >
-              <h1 class="fuente1">Diferentes tipos de tragos</h1>
-              <h4 class="fuente1">Gran variedad en vinos y cervesas</h4>
+              <h1 class="fuente1 display-4">Diferentes tipos de tragos y refrescos.</h1>
+              <h3 class="fuente1">Gran variedad en vinos y cervesas</h3>
             </div>
           </div>
         </div>
@@ -159,10 +140,10 @@
       </div>
     </header>
     <!-- Productos destacados -->
-    <div class="container text-center my-3">
-      <h1 class="fuente1 display-3">Productos Destacados</h1>
-    </div>
-    <section class="my-4">
+    <section class="my-4" id="destacados">
+      <div  class="container text-center my-3">
+        <h1 class="fuente1 display-3">Productos Destacados</h1>
+      </div>
       <div class="container-fluid">
         <div class="row text-center align-items-center">
           <div class="col imgNosotros">
@@ -277,7 +258,7 @@
       </div>
   </section>
   <!-- Nuestros productos -->
-  <section>
+  <section id="productos">
     <div class="container text-center my-3">
       <h1 class="fuente1 display-3">Nuestros Productos</h1>
     </div>
@@ -346,8 +327,38 @@
       </div>
     </div>
   </section>
-  <hr id="nosotros" class="mx-5">
+  <hr id="noticias" class="mx-5">
   <!-- Noticias -->
+  <section >
+    <div class="container text-center my-3">
+      <h1 class="fuente1 display-3">Nuevas Noticias</h1>
+    </div>
+    <div class="container my-5">
+      <div class="row row-cols-1 row-cols-md-2 g-4 align-items-center my-2">
+        <div class="col">
+          <img src="img/section4/img1.jpg" class="img-fluid">
+        </div>
+        <div class="col-4">
+          <p class="text-danger fw-bold">NOTICIAS</p>
+          <h2 class="fuente1 fw-bold">Nuevos Platos</h2>
+          <P>10 DE ENERO</P>
+          <p>Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod orci ut et lobortis.</p>
+        </div>
+      </div>
+      <hr class="m-2 d-md-none">
+      <div class="row row-cols-1 row-cols-md-2 g-4 align-items-center my-2">
+        <div class="col-4">
+          <p class="text-danger fw-bold">NOTICIAS</p>
+          <h2 class="fuente1 fw-bold">Inauguración</h2>
+          <P>10 DE ENERO</P>
+          <p>Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod orci ut et lobortis.</p>
+        </div>
+        <div class="col">
+          <img src="img/section4/img2.jpg" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </section>
   </body>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/style.js"></script>
