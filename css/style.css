@@ -5,8 +5,8 @@ body {
   background-color: rgb(0, 0, 0);
 }
 a img {
-  width: 70px;
-  height: 50px;
+  width: 120px;
+  height: 80px;
   object-fit: contain;
 }
 nav {
@@ -44,7 +44,7 @@ a {
 }
 /* Seccion de Contactos */
 .contenedor2 {
-  background-image: url(../img/header/carrusel1.jpg);
+  background-image: url(../img/section6/imgfondo.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -56,7 +56,6 @@ a {
   object-fit: contain;
 }
 /* boton de contacto */
-/* From uiverse.io by @nikk7007 */
 .button {
   --color: #f7f4f3;
   padding: 0.8em 1.7em;
@@ -112,3 +111,21 @@ a {
   filter: brightness(0.8);
 }
 /* Pie de pagina */
+.contenedor3 {
+  background-image: url(../img/section7/imgfondo.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  object-fit: contain;
+}
+.colPiePag img {
+  width: 50px;
+  height: 30px;
+  object-fit: contain;
+  margin: 0px;
+}
+.imgLogo {
+  width: 120px;
+  height: 80px;
+  object-fit: contain;
+}
