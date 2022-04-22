@@ -4,14 +4,51 @@ body {
 .fondo-dark {
   background-color: rgb(0, 0, 0);
 }
+/* Nav / Menu */
 a img {
   width: 120px;
-  height: 80px;
+  height: 70px;
   object-fit: contain;
 }
 nav {
   transition: 0.7s;
 }
+.btnNav {
+  margin: 0.5em;
+  background: transparent;
+  color: white;
+  border: none;
+  border-radius: 0.625em;
+  font-weight: bold;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.btnNav:hover {
+  color: rgb(0, 0, 0);
+}
+
+.btnNav:after {
+  content: "";
+  background: white;
+  position: absolute;
+  z-index: -1;
+  left: -20%;
+  right: -20%;
+  top: 0;
+  bottom: 0;
+  transform: skewX(-45deg) scale(0, 1);
+  transition: all 0.5s;
+}
+
+.btnNav:hover:after {
+  transform: skewX(-45deg) scale(1, 1);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
 /* Seccion sobre nosotros */
 .contenedor1 img {
   width: 50px;
@@ -41,6 +78,12 @@ nav {
 /* Seccion de Pedidos */
 a {
   text-decoration: none;
+}
+.imgPedidos {
+  width: 60px;
+  height: 50px;
+  object-fit: contain;
+  margin: 0px;
 }
 /* Seccion de Contactos */
 .contenedor2 {
