@@ -41,6 +41,7 @@ nav {
     margin-right: auto;
   }
 }
+/* Animaciones al nav */
 
 .btnNav {
   margin: 0.5em;
@@ -54,11 +55,23 @@ nav {
   z-index: 1;
   overflow: hidden;
 }
-
 .btnNav:hover {
-  color: rgb(0, 0, 0);
+  color: white;
 }
-
+.btnNav::before {
+  content: "";
+  width: 0%;
+  height: 3px;
+  background: white;
+  position: absolute;
+  transition: all 0.5s;
+  left: 0;
+  bottom: 0px;
+}
+.btnNav:hover::before {
+  width: 95%;
+}
+/* 
 .btnNav:after {
   content: "";
   background: white;
@@ -77,6 +90,7 @@ nav {
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
+*/
 
 /* Seccion sobre nosotros */
 .contenedor1 img {
