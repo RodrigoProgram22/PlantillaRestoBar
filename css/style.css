@@ -4,6 +4,24 @@ body {
 .fondo-dark {
   background-color: rgb(0, 0, 0);
 }
+.imgSombra {
+  box-shadow: 0px 18px 25px;
+}
+#entregas {
+  scroll-margin-top: 5.4em;
+}
+#noticias {
+  scroll-margin-top: 5.4em;
+}
+#productos {
+  scroll-margin-top: 5.4em;
+}
+#destacados {
+  scroll-margin-top: 5.4em;
+}
+#nosotros {
+  scroll-margin-top: 5.4em;
+}
 /* Nav / Menu */
 a img {
   width: 120px;
@@ -13,6 +31,17 @@ a img {
 nav {
   transition: 0.7s;
 }
+@media screen and (max-width: 900px) {
+  nav {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .noticiasCentrada {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 .btnNav {
   margin: 0.5em;
   background: transparent;
@@ -74,6 +103,13 @@ nav {
 }
 .fuente1 {
   font-family: "Dosis", sans-serif;
+}
+.imgAnimada {
+  transition: 0.5s;
+  opacity: 90%;
+}
+.imgAnimada:hover {
+  opacity: 100%;
 }
 /* Seccion de Pedidos */
 a {
