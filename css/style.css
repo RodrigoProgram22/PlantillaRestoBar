@@ -222,3 +222,7 @@ a {
   height: 80px;
   object-fit: contain;
 }
+.colPiePag .row div {
+  width: 20px;
+  padding: 0px;
+}
